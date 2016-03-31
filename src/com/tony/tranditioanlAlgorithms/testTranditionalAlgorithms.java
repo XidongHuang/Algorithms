@@ -11,6 +11,11 @@ public class testTranditionalAlgorithms {
 	 * Worst case: O(n^2)
 	 * Average case: O(n^2)
 	 * 
+	 * 
+	 * It is impractical for large amount of numbers, however, it is the fastest sorting method
+	 * for small size number array. Even for quick sort, in the small size array, it still uses
+	 * Insertion sort.
+	 * 
 	 */
 	@Test
 	public void testInsertionSort() {
